@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+    <!-- Website Title -->
+    <title>Giphy</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+	<link href="css/styles.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+  <script type = "text/javascript">
+
+    $(document).ready(function(){
+      var input = document.getElementById("srch");
+      var searchBtn = document.getElementById("search-btn");
+      const expand = () => {
+        searchBtn.classList.toggle("close");
+        input.classList.toggle("square");
+      };
+
+      searchBtn.addEventListener("mouseover", expand);
+      // jQuery methods go here...
+
+    });
+  </script>
+</head>
+<body >
+  <div class="contmain">
+    <img src=web_logo_large.png>
+    <p>GIFactory is your top source for the best & newest GIFs & Animated Stickers online. Find everything from funny GIFs, reaction GIFs, unique GIFs and more.</p>
+    <div class="gallery">
+			<div class="img">
+				<img src="https://media.giphy.com/media/58FDuiRsLPfmpd1U6X/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/IfsQRlU500wgtygqoE/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/llJVg4Ri0VrUBzNOgG/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/fqsnLfPBU8Llg0xRAf/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/dpSrm4cwUmCeQ/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/l0FF56cexcW2JAXCJj/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/LpudppL9sDzlP8aFAi/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/f41Jox61hzoyfXXZLl/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/jOmQmJkjcvB3Bc8CRb/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/2iq5WjYaBB5Vnl96pA/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/3PAL5bChWnak0WJ32x/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/etUHH9DT0FsrBuBou9/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/mCJkHm7o6vSoAKcLY7/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/mXig29cctencLLSaUt/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/ckNtdJE7zHKton7So4/giphy.gif" />
+			</div>
+      <div class="img">
+				<img src="https://media.giphy.com/media/2rAIp46q7RjRE5mjHN/giphy.gif" />
+			</div>
+
+
+    </div>
+  </div>
+  <div class="cont1">
+  </div>
+  <div class="cont2">
+    <p>Search Your GIF Here</p>
+    <form id="content"  method="post" action="search.php">
+    <input type="text" name="search" class="input" id="srch">
+    <button type="submit" class="search" name="searchbutton" id="search-btn"></button>
+    </form>
+    <img src="giflogo.png">
+    <div class="social">
+      <a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+      <a href="#" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
+      <a href="#" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
+      <a href="#" class="icon-button youtube"><i class="fa fa-youtube"></i><span></span></a>
+      <a href="#" class="icon-button pinterest"><i class="fa fa-pinterest"></i><span></span></a>
+    </div>
+  </div>
+
+
+</body>
+</html>
